@@ -3,6 +3,8 @@
 Hide files from the file Explorer that are ignored by your workspace's 
 `.gitignore` files.
 
+After installing the extension, activate it by running `Hide Gitignored: Hide files ignored by .gitignore`.
+
 Upon running the registered command, the workspace's `.gitignore` files are
 read and converted to `files.exclude` rules that vscode can interpret.
 Your workspace settings will be created or updated.
